@@ -26,23 +26,13 @@ background:#f4f6f9;
 header{
 background:#0d6efd;
 color:white;
+padding:15px;
 text-align:center;
-padding:10px;
 }
 
 
 .logo{
 font-size:22px;
-font-weight:bold;
-}
-
-
-.banner{
-background:url('https://images.unsplash.com/photo-1556740749-887f6717d7e4') center/cover;
-color:white;
-text-align:center;
-padding:60px 20px;
-font-size:28px;
 font-weight:bold;
 }
 
@@ -71,12 +61,20 @@ color:#0d6efd;
 .service{
 padding:8px;
 font-size:16px;
+display:flex;
+align-items:center;
+}
+
+
+.service img{
+width:28px;
+margin-right:8px;
 }
 
 
 .service i{
-color:#0d6efd;
 margin-right:8px;
+color:#0d6efd;
 }
 
 
@@ -133,7 +131,7 @@ var message=document.getElementById("message").value;
 
 
 var url="https://wa.me/918638103439?text="
-+"*Sunny Computer CSC Enquiry*%0a%0a"
++"*CSC Enquiry*%0a%0a"
 +"Service: "+service+"%0a"
 +"Name: "+name+"%0a"
 +"Mobile: "+mobile+"%0a"
@@ -163,19 +161,10 @@ window.open(url,'_blank');
 
 </div>
 
+<p>All Online Government Services</p>
+
 </header>
 
-
-
-<div class="banner">
-
-CSC DIGITAL SERVICE
-
-<br>
-
-PAN • VOTER • PASSPORT • MSME
-
-</div>
 
 
 
@@ -190,16 +179,12 @@ PAN • VOTER • PASSPORT • MSME
 
 <div class="service">
 
-🪪 PAN Card (New / Correction)
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+PAN Card (New / Correction)
 
 </div>
 
-
-<div class="service">
-
-🪪 Aadhaar Update / Print
-
-</div>
 
 
 <div class="service">
@@ -211,6 +196,7 @@ Voter ID (New / Correction)
 </div>
 
 
+
 <div class="service">
 
 <i class="fa-solid fa-passport"></i>
@@ -218,6 +204,7 @@ Voter ID (New / Correction)
 Passport Application Assistance
 
 </div>
+
 
 
 <div class="service">
@@ -229,6 +216,7 @@ Ayushman Bharat Card
 </div>
 
 
+
 <div class="service">
 
 <i class="fa-solid fa-helmet-safety"></i>
@@ -236,6 +224,7 @@ Ayushman Bharat Card
 E-Shram Card
 
 </div>
+
 
 
 <div class="service">
@@ -247,6 +236,7 @@ Caste Certificate
 </div>
 
 
+
 <div class="service">
 
 <i class="fa-solid fa-file-invoice"></i>
@@ -254,6 +244,7 @@ Caste Certificate
 Income Certificate
 
 </div>
+
 
 
 <div class="service">
@@ -265,6 +256,7 @@ Domicile Certificate
 </div>
 
 
+
 <div class="service">
 
 <i class="fa-solid fa-building"></i>
@@ -272,6 +264,7 @@ Domicile Certificate
 Udyam Registration (MSME)
 
 </div>
+
 
 
 <div class="service">
@@ -283,6 +276,7 @@ Online Forms & Government Schemes
 </div>
 
 
+
 <div class="service">
 
 <i class="fa-solid fa-print"></i>
@@ -292,6 +286,7 @@ Print, Scan, Photocopy & Lamination
 </div>
 
 
+
 <div class="service">
 
 <i class="fa-solid fa-file-signature"></i>
@@ -299,6 +294,7 @@ Print, Scan, Photocopy & Lamination
 EFiling TDS Apply
 
 </div>
+
 
 
 </div>
@@ -374,7 +370,7 @@ EFiling TDS Apply
 
 <button onclick="sendWhatsApp()">
 
-Send on WhatsApp
+Submit to WhatsApp
 
 </button>
 
@@ -389,14 +385,13 @@ Send on WhatsApp
 <div class="box">
 
 
-<h2>Contact Details</h2>
+<h2>Contact</h2>
 
 
 <p><b>Call:</b> 9435091694</p>
 
 
 <p><b>WhatsApp:</b> 8638103439</p>
-
 
 
 <p>
